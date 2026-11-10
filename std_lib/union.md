@@ -1,8 +1,8 @@
-#UNION TYPE
+# UNION TYPE
 
 Which one is active?
 
-`
+```zig
 const std = @import("std");
 const print = std.debug.print;
 
@@ -28,6 +28,6 @@ fn atest2() void {
     print("playload 2: {d}\n", .{payload.float});
 }
 
-`
+```
 Labelled unions:
 
